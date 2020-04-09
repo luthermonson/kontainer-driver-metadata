@@ -79,6 +79,10 @@ func loadK8sVersionInfo() map[string]v3.K8sVersionInfo {
 			MinRancherVersion: "2.3.5",
 			MinRKEVersion:     "1.0.4",
 		},
+		"v1.17.4-rancher1-2-dsr-enabled": {
+			MinRancherVersion: "2.3.5",
+			MinRKEVersion:     "1.0.4",
+		},
 		"v1.8.10-rancher1-1": {
 			DeprecateRKEVersion:     "0.2.2",
 			DeprecateRancherVersion: "2.2",
